@@ -1,7 +1,6 @@
 import pygame
 import sys
 
-
 class Game:
     corredores = []
     __starline = 20
@@ -31,7 +30,7 @@ class Game:
             self.__screen.blit(self.background, (0, 0))
             # Renderizar los corredores moviendose
             self.__screen.blit(self.runner, (x, 240))
-
+            
             pygame.display.flip()
             
             x += 3
