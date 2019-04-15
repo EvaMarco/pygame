@@ -6,8 +6,6 @@ import random
 class Runner:
 
     def __init__(self, x=0, y=0):
-        ixcustom = random.randint(0, 4)
-
         self.custome = pygame.image.load('images/turtle.png')
         self.position = [x, y]
         self.name = 'Tortuga'
